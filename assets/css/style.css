@@ -155,6 +155,10 @@ main {
     text-align: center;
 }
 
+#article a {
+    text-decoration: none;
+}
+
 #article img{
     margin: auto;
     max-width: 98%;
