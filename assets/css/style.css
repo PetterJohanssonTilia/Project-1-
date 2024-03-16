@@ -172,6 +172,10 @@ footer {
         /* Push main content down for 768px + screens */
         margin-top: 60.59px;
     }
+
+    #cover-text {
+        width: 50%;
+    }
 }
 
 /* Media query: Laptops and larger (992px and up) */
@@ -188,4 +192,12 @@ footer {
     main {
         margin-top: 78.59px;
     }
+}
+
+/* Media query: Laptops and larger (14402px and up) */
+@media screen and (min-width: 1440px) {
+    /* Add hover effect on the menu */
+   #cover-text {
+    width: 35%;
+   }
 }
