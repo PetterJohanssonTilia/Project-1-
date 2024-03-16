@@ -11,6 +11,7 @@
 /* General styles */
 
 body {
+    background-color: #333A73; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -19,16 +20,14 @@ body {
     font-family: 'Pridi', sans-serif;
 }
 
-h1 h2 h3 {
-    font-family: 'Angkor', sans-serif;
+
+h1, h2, h3 {
+    
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FBA834;
 }
 
-#logo {
-    color: #FBA834;
-}
 
 /* Header */
 header {
@@ -108,7 +107,6 @@ main {
 }
 
 #cover-text{
-    background-color: #387ADF;
     background-color: #387bdfcb;
     font-size: 130%;
     position:absolute;
@@ -121,7 +119,45 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #FBA834;
 }
+/* News Section */
 
+#news {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    background-color: #333A73;
+    text-align: center;
+    
+}
+/* News article wrapper */
+#newswrapper {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* News articles */
+
+#article {
+    max-width: 99%;
+    background-color: #387ADF;
+    border-radius: 5px;
+    border: 5px solid #FBA834;
+    padding: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#article img{
+    margin: auto;
+    max-width: 98%;
+    height: auto;
+}
+#article h3 {
+    font-size: 100%;
+}
 /* Footer */
 
 footer {
@@ -178,6 +214,11 @@ footer {
         width: 50%;
         left: 50px;
     }
+    /* News section */
+
+    #article h3 {
+        font-size: 150%;
+    }
 }
 
 /* Media query: Laptops and larger (992px and up) */
@@ -194,6 +235,12 @@ footer {
     main {
         margin-top: 78.59px;
     }
+
+    /* News section */
+
+    #article h3 {
+        font-size: 200%;
+    }
 }
 
 /* Media query: Laptops and larger (14402px and up) */
@@ -203,4 +250,14 @@ footer {
     #cover-text {
     width: 35%;
    }
+
+   /* News section */
+  
+   #newswrapper {
+ 
+   }
+
+   #article h3 {
+    font-size: 300%;
+}
 }
