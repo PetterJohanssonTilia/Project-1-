@@ -92,7 +92,7 @@ nav {
 main {
     /* Make main element take up any surplus space to push footer down */ 
     flex: 1 0 auto;
-    margin-top: 116px;
+    margin-top: 49px;
 }
 
 /* Hero section */
@@ -166,7 +166,7 @@ footer {
 
     main {
         /* Push main content down for 768px + screens */
-        margin-top: 64.59px;
+        margin-top: 60.59px;
     }
 }
 
@@ -182,6 +182,6 @@ footer {
     }
 
     main {
-        margin-top: 87px;
+        margin-top: 78.59px;
     }
 }
