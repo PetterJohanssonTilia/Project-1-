@@ -19,6 +19,13 @@ body {
     font-family: 'Pridi', sans-serif;
 }
 
+h1 h2 h3 {
+    font-family: 'Angkor', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FBA834;
+}
+
 /* Header */
 header {
     background-color: #333A73;
@@ -36,13 +43,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'Angkor', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #FBA834;
 }
 
 #menu {
@@ -70,7 +70,7 @@ nav {
     width: 100%;
     left: 0;
     /* horisontal - vertical - shadowblur - color */
-    box-shadow: 0 2px 2px #3a3a3a3a;
+    /*box-shadow: 0 2px 2px #3a3a3a3a;*/
     display: none;
     top: 99%;
 }
@@ -100,6 +100,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/2103.i518.018.S.m005.c12.suburban\ house\ night.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text{
+    background-color: #387ADF;
+    font-size: 130%;
+    position:absolute;
+    bottom: 30px;
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #FBA834;
 }
 
 /* Footer */
