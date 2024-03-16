@@ -134,4 +134,12 @@ footer {
     #menu a:hover{
         border-bottom: solid #3a3a3a3a;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    main {
+        margin-top: 87px;
+    }
 }
