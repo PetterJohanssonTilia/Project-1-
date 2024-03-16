@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #F5F7F8;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -30,9 +30,16 @@ header {
     box-shadow: 0 2px 2px #3a3a3a3a;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Angkor', sans-serif;
-
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #45474B;
 }
 /* Main content */
 main{
