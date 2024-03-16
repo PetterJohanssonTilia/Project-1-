@@ -96,8 +96,25 @@ main{
 /* Footer */
 
 footer {
-    background-color: blue;
+    background-color: #45474B;
 }
+
+/* Footer */
+#social-networks {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    list-style-type: none;
+    text-align: center;
+    /*Padding top - right - bottom - left*/
+}
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #F4CE14;
+}
+
+
 
 /* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
