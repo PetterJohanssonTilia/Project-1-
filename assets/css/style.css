@@ -86,11 +86,17 @@ nav {
     font-size: 2rem;
 }
 /* Main content */
-main{
-    background-color: aquamarine;
+main {
     /* Make main element take up any surplus space to push footer down */ 
     flex: 1 0 auto;
     margin-top: 116px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/2103.i518.018.S.m005.c12.suburban\ house\ night.jpg") no-repeat center center/cover;
 }
 
 /* Footer */
