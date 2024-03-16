@@ -28,6 +28,11 @@ h1, h2, h3 {
     color: #FBA834;
 }
 
+h3, h5 {
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
 
 /* Header */
 header {
@@ -61,7 +66,7 @@ header a {
 }
 
 .active {
-    border-bottom: solid #3a3a3a3a;
+    border-bottom: solid #FBA834;
 }
 
 /*Navbar styles with dropdown toggle*/
