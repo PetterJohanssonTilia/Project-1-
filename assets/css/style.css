@@ -99,7 +99,7 @@ footer {
     background-color: blue;
 }
 
-/* Media query: Tablets and larger (768px and up) */
+/* Tablets and larger (768px and up) */
 @media screen and (min-width: 768px){
     /* Header */
     nav {
@@ -118,10 +118,20 @@ footer {
     }
 
     .nav-toggle-label {
+        /*Hide hamburger menu with larger screens*/
         display: none;
     }
 
     main {
+        /* Push main content down for 768px + screens */
         margin-top: 64.59px;
+    }
+}
+
+/* Media query: Laptops and larger (992px and up) */
+@media screen and (min-width: 992px) {
+    /* Add hover effect on the menu */
+    #menu a:hover{
+        border-bottom: solid #3a3a3a3a;
     }
 }
