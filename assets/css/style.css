@@ -109,13 +109,13 @@ main {
 
 #cover-text{
     background-color: #387ADF;
+    background-color: #387bdfcb;
     font-size: 130%;
     position:absolute;
     bottom: 30px;
     width: 80%;
-    padding-top: 10px;
-    padding-bottom: 10px;
     padding-left: 10px;
+    left: 10px;
 }
 
 #cover-text > h2, #cover-text > h3 {
@@ -173,8 +173,10 @@ footer {
         margin-top: 60.59px;
     }
 
+    /* Hero section */
     #cover-text {
         width: 50%;
+        left: 50px;
     }
 }
 
@@ -196,8 +198,9 @@ footer {
 
 /* Media query: Laptops and larger (14402px and up) */
 @media screen and (min-width: 1440px) {
-    /* Add hover effect on the menu */
-   #cover-text {
+    
+   /* Hero section */
+    #cover-text {
     width: 35%;
    }
 }
