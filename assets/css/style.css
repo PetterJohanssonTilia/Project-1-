@@ -21,7 +21,7 @@ body {
 
 /* Header */
 header {
-    background-color: #F5F7F8;
+    background-color: #333A73;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -42,16 +42,18 @@ h1 {
     font-family: 'Angkor', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #45474B;
+    color: #FBA834;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
     list-style: none;
+    background-color: #333A73;
 }
 
 #menu li {
+    color: #FBA834;
     margin-bottom: 1em;
 }
 
@@ -62,7 +64,7 @@ h1 {
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
-    background-color: #F5F7F8;
+    background-color: #333A73;
     padding: 0 1rem;
     z-index: 99;
     width: 100%;
@@ -84,6 +86,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: #FBA834;
 }
 /* Main content */
 main {
@@ -102,7 +105,7 @@ main {
 /* Footer */
 
 footer {
-    background-color: #45474B;
+    background-color: #333A73;
 }
 
 /* Footer */
@@ -117,7 +120,7 @@ footer {
 #social-networks i{
     font-size: 160%;
     padding: 5%;
-    color: #F4CE14;
+    color: #FBA834;
 }
 
 
