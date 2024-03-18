@@ -207,13 +207,15 @@ footer {
     border: 5px solid #FBA834;
     width: 100%;
     padding: 5px;
-    
+}
+.item p {
+    font-size: 20px;
 }
 /* Submit button */
 .submit-stories-button {
     align-self: center;
     text-align: center;
-    margin-top: 20px;
+    top: 200px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
@@ -446,8 +448,7 @@ footer {
         column-gap: 0;
     }
 
- 
-    }
+
     /* Stories-Form */
     #submit-stories-form {
         position: absolute;
@@ -465,7 +466,6 @@ footer {
     .story-text-input:hover {
         border: 5px solid #FBA834;
     }
-  
 }
 
 /* Media query: Laptops and larger (1440px and up) */
@@ -475,7 +475,7 @@ footer {
     }
 
     main {
-        margin-top: 78.59px;
+        margin-top: 88px;
       
     }
     /* Navigation */
@@ -498,12 +498,12 @@ footer {
 
    #article h3 {
     font-size: 200%;
-}
+    }
     /* Gallery */
     #gallery {
     padding-top: 40px;
+    }
 }
-
 /* Media query: Laptops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
     h1 {
@@ -511,7 +511,7 @@ footer {
     }
 
     main {
-        margin-top: 78.59px;
+        margin-top: 134px;
     }
 
     /* Navigation */
@@ -535,12 +535,15 @@ footer {
 
    #article h3 {
         font-size: 200%;
-}
+    }
     /* Gallery */
     #gallery {
         padding-top: 80px;
-}
-
+    }
+    /* Story */
+    .item p {
+        font-size: 30px;
+    }
     
 }
 
