@@ -421,6 +421,11 @@ footer {
         column-count: 3;
         column-gap: 0;
     }
+     /* Stories-Form */
+     #submit-stories-form {
+        margin-top: 70px;
+        
+
 }
   
 /* Media query: Laptops and larger (992px and up) */
@@ -459,7 +464,7 @@ footer {
     /* Stories-Form */
     #submit-stories-form {
         position: absolute;
-        top: 70px;
+        margin-top: 70px;
         left: 5%;
 
     /* hover effects */
@@ -510,6 +515,10 @@ footer {
     #gallery {
     padding-top: 40px;
     }
+    /*Submit stories*/
+    #submit-stories-form{
+        margin-top: 100px;
+    }
 }
 /* Media query: Laptops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
@@ -552,6 +561,10 @@ footer {
         font-size: 30px;
     }
     
+    /*Submit stories*/
+    #submit-stories-form{
+        margin-top: 150px;
+    }
 }
 
 
