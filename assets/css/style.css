@@ -192,12 +192,20 @@ footer {
 /* ========= Stories ==========*/
 
 #stories-container {
-    padding-top: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0px;
     background-color: #041837;
+    column-gap: 50px;
+    width: 80%;
+    margin: auto;
 }
 .item {
+    background-color: #041837;
+    border-radius: 5px;
+    border: 5px solid #FBA834;
     width: 100%;
-    background-color: #cf39d4;
     padding: 5px;
     
 }
@@ -215,24 +223,6 @@ footer {
     font-weight: bolder;
     color: #FBA834;
 }
-
-/* Grid container */
-#stories-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 20px;
-    width: 80%;
-    margin: auto;
-    background-color: #ff3b1900;
-    grid-template-rows: repeat(9, 40px);
-    grid-template-columns: repeat(9, 40px);
-
-
-}
-
-
-
 
 /* ========= Submit stories ==========/*
 
