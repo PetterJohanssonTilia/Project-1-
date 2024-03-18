@@ -67,37 +67,46 @@
                   name="last-name"
                   class="text-input"
                   required
-                /><br /><br />
+                />
+                <br />
+                <br />
                 <label for="story">Story</label>
-                <input type="text" name="story" class="story-text-input" required />
+                <input 
+                    type="text" 
+                    name="story" 
+                    class="story-text-input" 
+                    required 
+                />
                 
                 <div class="radio-buttons">
-                    <div>
-                        <label for="frustrated">Frustrated</label>
-                        <input
-                        type="radio"
-                        name="anger-scale"
-                        id="frustrated"
-                        value="frustrated"
-                        required
-                        />
+                    <div class="radio-button">
+                        <label for="frustrated" id="frustrated">sdf<i class="fa-regular fa-face-frown"></i>
+                            <input
+                            type="radio"
+                            name="anger-scale"
+                            class="radio-buttons-hidden"
+                            value="frustrated"
+                            required
+                            />
+                        </label>
+                        
                     </div>
-                    <div>
-                        <label for="angry">Angry</label>
+                    <div class="radio-button">
+                        <label for="angry" id="angry"><i class="fa-regular fa-face-angry"></i></label>
                         <input
                         type="radio"
                         name="anger-scale"
-                        id="angry"
+                        class="radio-buttons-hidden"
                         value="angry"
                         required
                         />
                     </div>
-                    <div>
-                        <label for="furious">Furious</label>
+                    <div class="radio-button">
+                        <label for="furious" id="furious"><i class="fa-regular fa-face-tired"></i></label>
                         <input
                         type="radio"
                         name="anger-scale"
-                        id="furious"
+                        class="radio-buttons-hidden"
                         value="furious"
                         required
                         />

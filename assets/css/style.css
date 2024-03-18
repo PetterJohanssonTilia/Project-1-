@@ -200,8 +200,10 @@ footer {
     margin-bottom: 20px;
     padding: 30px;
     flex-grow: 1;
-    background-color: #4d3b21;
+    background-color: #041837;
     background-size: cover;
+    border-radius: 5px;
+    border: 5px solid #FBA834;
 }
 #submit-stories-form h1{
         margin-bottom: 20px;
@@ -216,7 +218,7 @@ footer {
     border-radius: 20px;
     padding: 0 5px;
 
-/* Story */  
+/* Story - text */  
 }
 .story-text-input{
     background: white;
@@ -227,20 +229,52 @@ footer {
     padding: 0 5px;
     
 }
-/* Stories radio-buttons - frustrated, angry, fruious*/
+/* Stories radio-buttons / Emojis */
+/* div container */
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
+
 }
+/* Hides the radiobutton */
+.radio-buttons-hidden {
+    
+    display: none;
+}
+
+/* Radio Label - Emoji / font-size */
+.radio-buttons label {
+    font-size: 300%;
+    background-color: #04183700;
+}
+/* Colors the labels for radiobuttons */
+/*frustrated*/
+#frustrated {
+    color: #f7b85f;
+}
+
+#angry {
+    color: #e2643d;
+}
+
+#furious {
+    color: #ff3c19;
+}
+
+.radio-button:has(input:checked){
+    background-color: blue; /* Change background color when radio button is checked */
+}
+
 /* Submit-Button - Share your pain */
 .submit-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #454b1b;
-    color: #fafafa;
+    background-color: #333A73;
+    font-weight: bolder;
+    color: #FBA834;
 }
 
 
@@ -358,8 +392,19 @@ footer {
         top: 150px;
         margin: auto;
         left: 5%;
-              
-        
+    /* hover effects */
+    }
+    .submit-button:hover {
+        background-color: #51588f;
+    }
+    .text-input:hover {
+        border: 5px solid #FBA834;
+    }
+    .story-text-input:hover {
+        border: 5px solid #FBA834;
+    }
+    .anger-scales:hover {
+        font-size: 180%;
     }
 }
 
