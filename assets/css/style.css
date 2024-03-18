@@ -11,7 +11,7 @@
 /* General styles */
 
 body {
-    background-color: #333A73; 
+    background-color: #181d3f; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -131,9 +131,10 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
     margin: auto;
-    background-color: #333A73;
     text-align: center;
-    
+}
+#news h1{
+    background-color: #333A73;
 }
 /* News article wrapper */
 #newswrapper {
@@ -177,7 +178,7 @@ footer {
 
 #gallery {
     padding-top: 20px;
-    background-color: #041837;
+    
 
 }
 
@@ -199,6 +200,7 @@ footer {
     column-gap: 500px;
     width: 80%;
     margin: auto;
+    background-image: url(../images/background-gradient.png);
 }
 .item {
     margin-bottom: 50px;
