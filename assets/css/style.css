@@ -174,14 +174,20 @@ footer {
 }
 
 /* ========= Gallery ==========*/
+
+#gallery {
+    padding-top: 20px;
+    background-color: #041837;
+
+}
+
+
 #photos img {
     width: 100%;
     line-height: 1em;
+   
 }
 
-#photos {
-    line-height: 0;
-}
 
 /* ========= Stories ==========/*
 /* Submit-Stories Section */
@@ -466,6 +472,12 @@ footer {
    #article h3 {
     font-size: 200%;
 }
+    /* Gallery */
+    #gallery {
+    padding-top: 40px;
+                
+        
+}
 }
 
 /* Media query: Laptops and larger (2560px and up) */
@@ -494,12 +506,19 @@ footer {
         flex-direction: row;
    }
    #article {
-    width: 100%;
+        width: 100%;
    }
 
    #article h3 {
-    font-size: 200%;
+        font-size: 200%;
 }
+    /* Gallery */
+    #gallery {
+        padding-top: 80px;
+            
+
+}
+    
 }
 
 
