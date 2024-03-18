@@ -183,6 +183,53 @@ footer {
     line-height: 0;
 }
 
+/* Stories */
+/* Stories Section */
+#submit-stories {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #4d3b21;
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+}
+/* Stories Form */
+#submit-stories-form{
+    padding: 30px;
+}
+#submit-stories-form h1{
+        margin-bottom: 20px;
+    }
+/* Stories text-input, First Name, Last Name, Story */
+.text-input{
+    background: white;
+    width: 100%;
+    border: 1px solid #041837;
+    border-radius: 20px;
+    padding: 0 5px;
+    
+}
+/* Stories radio-buttons */
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+/* Submit-Button - Share your pain */
+.submit-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
+}
+
+
+
 /* Footer */
 #social-networks {
     display: flex;
@@ -211,53 +258,50 @@ footer {
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px){ 
     /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-    #menu {
-        display: flex;
-    }
-
-    #menu li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        /*Hide hamburger menu with larger screens*/
-        display: none;
-    }
-
-    main {
-        /* Push main content down for 768px + screens */
-        margin-top: 60.59px;
-    }
-
-    /* Hero section */
-    #cover-text {
-        width: 50%;
-        left: 50px;
-    }
-    /* News section */
-
-    #article h3 {
-        font-size: 150%;
-    }
-    
-    /*Gallery */
-     #photos {
-        column-count: 3;
-        column-gap: 0;
-    }
+nav {
+    display: block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right: 1rem;
 }
-     /* Stories */
-     #submit-story-container {
-        display: flex;
-        flex-direction: column;
-    }
+#menu {
+    display: flex;
+}
+
+#menu li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    /*Hide hamburger menu with larger screens*/
+    display: none;
+}
+
+main {
+    /* Push main content down for 768px + screens */
+    margin-top: 60.59px;
+}
+
+/* Hero section */
+    #cover-text {
+    width: 50%;
+    left: 50px;
+}
+/* News section */
+
+#article h3 {
+    font-size: 150%;
+}
+    
+/*Gallery */
+#photos {
+    column-count: 3;
+    column-gap: 0;
+}
+}
+
+    
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     /* Add hover effect on the menu */
