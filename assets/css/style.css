@@ -173,7 +173,7 @@ footer {
     background-color: #333A73;
 }
 
-/* Gallery Page */
+/* ========= Gallery ==========/*
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -183,8 +183,8 @@ footer {
     line-height: 0;
 }
 
-/* Stories */
-/* Stories Section */
+/* ========= Stories ==========/*
+/* Submit-Stories Section */
 #submit-stories {
     display: flex;
     flex-direction: column;
@@ -192,6 +192,7 @@ footer {
     
    
 }
+/* ========= Submit stories ==========/*
 /* Stories Form */
 #submit-stories-form{
     margin-top: 20px;
@@ -208,6 +209,10 @@ footer {
 #submit-stories-form h1{
         margin-bottom: 20px;
     }
+#submit-stories p{
+    text-align: center;
+    margin-top: 10px;
+}
 
 /* First Name, Last Name, */
 .text-input{
@@ -229,8 +234,9 @@ footer {
     padding: 0 5px;
     
 }
-/* Stories radio-buttons / Emojis */
-/* div container */
+/* Stories radio-buttons */
+
+/* Container */
 .radio-buttons {
     width: 100%;
     display: flex;
@@ -239,7 +245,7 @@ footer {
 }
 /* Hides the radiobutton */
 .radio-buttons-hidden {
-    
+
     display: none;
 }
 
@@ -248,8 +254,30 @@ footer {
     font-size: 300%;
     background-color: #04183700;
 }
-/* Colors the labels for radiobuttons */
-/*frustrated*/
+
+
+/* Radio button */
+.radio-button {
+
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 3px solid #f7b85f;
+    border-radius: 50px;
+    text-align: center center;
+}
+
+/* Change background color when radio button is checked */
+.radio-button:has(input:checked){
+    background-color: #213e6b; 
+}
+
+.radio-button:hover{
+    background-color: #213e6b;
+}
+
+/* Colors the labels/emojis for radiobuttons */
+
 #frustrated {
     color: #f7b85f;
 }
@@ -262,9 +290,7 @@ footer {
     color: #ff3c19;
 }
 
-.radio-button:has(input:checked){
-    background-color: blue; /* Change background color when radio button is checked */
-}
+
 
 /* Submit-Button - Share your pain */
 .submit-button {
@@ -363,6 +389,8 @@ footer {
 
     main {
         margin-top: 78.59px;
+        /* Make main element take up any surplus space to push footer down */ 
+        flex: 1 0 auto;
     }
 
     /* News section */
@@ -384,14 +412,17 @@ footer {
     /* Stories-Section */
     #submit-stories{
         position: relative;
-       
+        margin-bottom: 110vh;
+     
     }
     /* Stories-Form */
     #submit-stories-form {
         position: absolute;
-        top: 150px;
-        margin: auto;
+        top: 90px;
+     
         left: 5%;
+        
+        /* Make main element take up any surplus space to push footer down */ 
     /* hover effects */
     }
     .submit-button:hover {
@@ -403,9 +434,7 @@ footer {
     .story-text-input:hover {
         border: 5px solid #FBA834;
     }
-    .anger-scales:hover {
-        font-size: 180%;
-    }
+  
 }
 
 /* Media query: Laptops and larger (1440px and up) */
@@ -416,6 +445,8 @@ footer {
 
     main {
         margin-top: 78.59px;
+        /* Make main element take up any surplus space to push footer down */ 
+        flex: 1 0 auto;
     }
     /* Navigation */
 

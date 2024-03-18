@@ -47,72 +47,64 @@
     <!-- Main content -->
     <main>
       <section id="submit-stories">
-        
         <form
-            method="POST"
-            action="https://formdump.test.net"
-            id="submit-stories-form">
-            <h1>Submit your own story!</h1>
-            <div>
-                <label for="first-name">First Name</label>
-                <input 
-                    type="text" 
-                    name="first-name" 
-                    class="text-input" 
-                    required 
-                />
-                <label for="last-name">Last Name</label>
-                <input 
-                  type="text"
-                  name="last-name"
-                  class="text-input"
-                  required
-                />
-                <br />
-                <br />
-                <label for="story">Story</label>
-                <input 
-                    type="text" 
-                    name="story" 
-                    class="story-text-input" 
-                    required 
-                />
-                
-                <div class="radio-buttons">
-                    <div class="radio-button">
-                        <label for="frustrated" id="frustrated">sdf<i class="fa-regular fa-face-frown"></i>
-                            <input
-                            type="radio"
-                            name="anger-scale"
-                            class="radio-buttons-hidden"
-                            value="frustrated"
-                            required
-                            />
-                        </label>
-                        
-                    </div>
-                    <div class="radio-button">
-                        <label for="angry" id="angry"><i class="fa-regular fa-face-angry"></i></label>
-                        <input
-                        type="radio"
-                        name="anger-scale"
-                        class="radio-buttons-hidden"
-                        value="angry"
-                        required
-                        />
-                    </div>
-                    <div class="radio-button">
-                        <label for="furious" id="furious"><i class="fa-regular fa-face-tired"></i></label>
-                        <input
-                        type="radio"
-                        name="anger-scale"
-                        class="radio-buttons-hidden"
-                        value="furious"
-                        required
-                        />
-                  </div>
+          method="POST"
+          action="https://formdump.test.net"
+          id="submit-stories-form"
+        >
+          <h1>Submit your own story!</h1>
+          <div>
+            <label for="first-name">First Name</label>
+            <input type="text" name="first-name" class="text-input" required />
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" class="text-input" required />
+            <br />
+            <br />
+            <label for="story">Story</label>
+            <input type="text" name="story" class="story-text-input" required />
+            <p>how angry did this make you?</p>
+            <div class="radio-buttons">
+            <div class="radio-button">
+              <label for="frustratedinput" id="frustrated"
+                ><i class="fa-regular fa-face-frown"></i>
+              </label>
+              <input
+                type="radio"
+                name="anger-scale"
+                class="radio-buttons-hidden"
+                value="frustrated"
+                required
+                id="frustratedinput"
+              />
             </div>
-            <button type="submit" class="submit-button">Share your pain!</button>
+            <div class="radio-button">
+              <label for="angryinput" id="angry"
+                ><i class="fa-regular fa-face-angry"></i
+              ></label>
+              <input
+                type="radio"
+                name="anger-scale"
+                class="radio-buttons-hidden"
+                value="angry"
+                id="angryinput"
+                required
+              />
+            </div>
+            <div class="radio-button">
+              <label for="furiousinput" id="furious"
+                ><i class="fa-regular fa-face-tired"></i
+              ></label>
+              <input
+                type="radio"
+                name="anger-scale"
+                class="radio-buttons-hidden"
+                value="furious"
+                id="furiousinput"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="submit-button">Share your pain!</button>
         </form>
       </section>
     </main>
