@@ -253,8 +253,11 @@ footer {
         column-gap: 0;
     }
 }
-    /* Stories /*
-    
+     /* Stories */
+     #submit-story-container {
+        display: flex;
+        flex-direction: column;
+    }
 /* Media query: Laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
     /* Add hover effect on the menu */
