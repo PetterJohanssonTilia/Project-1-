@@ -196,12 +196,12 @@ footer {
     display: flex;
     flex-direction: column;
     padding-top: 0px;
-    background-color: #041837;
-    column-gap: 50px;
+    column-gap: 500px;
     width: 80%;
     margin: auto;
 }
 .item {
+    margin-bottom: 50px;
     background-color: #041837;
     border-radius: 5px;
     border: 5px solid #FBA834;
