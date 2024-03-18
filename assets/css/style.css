@@ -372,6 +372,45 @@ footer {
     main {
         margin-top: 78.59px;
     }
+    /* Navigation */
+
+    #menu {
+        font-size: 150%;
+    }
+   /* Hero section */
+    #cover-text {
+    width: 35%;
+   }
+
+   /* News section */
+    #newswrapper {
+        flex-direction: row;
+   }
+   #article {
+    width: 100%;
+   }
+
+   #article h3 {
+    font-size: 200%;
+}
+}
+
+/* Media query: Laptops and larger (2560px and up) */
+@media screen and (min-width: 2560px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    main {
+        margin-top: 78.59px;
+    }
+
+    /* Navigation */
+
+    #menu {
+        font-size: 200%;
+    }
+
    /* Hero section */
     #cover-text {
     width: 35%;
