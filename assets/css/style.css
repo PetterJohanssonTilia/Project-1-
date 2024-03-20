@@ -305,8 +305,8 @@ footer {
 }
 /* Hides the radiobutton */
 .radio-buttons-hidden {
-
-    display: none;
+    position: absolute;
+    z-index: -99;
 }
 
 /* Radio Label - Emoji / font-size */
