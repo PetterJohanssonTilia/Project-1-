@@ -434,8 +434,8 @@ footer {
         column-gap: 0;
     }
      /* Stories-Form */
-     #submit-stories-form {
-        margin-top: 70px;
+     #submit-stories {
+        margin-top: 20px;
         
      }
 }
@@ -475,10 +475,11 @@ footer {
     }
 
     /* Stories-Form */
+
+    
     #submit-stories-form {
-        position: absolute;
-        margin-top: 70px;
-        left: 5%;
+        width: 80%;
+        margin: auto;
 
     /* hover effects */
     }
@@ -525,11 +526,14 @@ footer {
     #gallery {
     padding-top: 40px;
     }
+    /* Submit stories */ 
+    /* Stories-Form */
 
-    /*Submit stories*/
-    #submit-stories-form{
-        margin-top: 100px;
-    }
+    
+    #submit-stories-form {
+        width: 70%;
+        margin: auto;
+
 }
 /* Media query: Laptops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
@@ -570,8 +574,8 @@ footer {
     }
     
     /*Submit stories*/
-    #submit-stories-form{
-        margin-top: 150px;
+    #submit-stories{
+        font-size: 200%;
     }
     .submit-stories-button {
         font-size: 200%;
