@@ -124,7 +124,7 @@ main {
 
 #cover-text{
     background-color: #387bdfcb;
-    font-size: 130%;
+    font-size: 100%;
     position:absolute;
     bottom: 30px;
     width: 80%;
@@ -416,8 +416,9 @@ footer {
 
     /* Hero section */
     #cover-text {
-        width: 50%;
+        width: 40%;
         left: 50px;
+        font-size: 120%;
     }
     /* News section */
     #article h3 {
@@ -463,6 +464,12 @@ footer {
         column-gap: 10px;
     }
 
+    /* Hero section */
+    #cover-text {
+        width: 30%;
+        left: 50px;
+        font-size: 120%;
+    }
 
     /* Stories-Form */
     #submit-stories-form {
@@ -496,7 +503,8 @@ footer {
     }
    /* Hero section */
     #cover-text {
-    width: 35%;
+    width: 20%;
+    font-size: 120%;
    }
 
    /* News section */
@@ -514,6 +522,7 @@ footer {
     #gallery {
     padding-top: 40px;
     }
+
     /*Submit stories*/
     #submit-stories-form{
         margin-top: 100px;
@@ -533,7 +542,8 @@ footer {
 
    /* Hero section */
     #cover-text {
-    width: 35%;
+    width: 15%;
+    font-size: 180%;
    }
 
    /* News section */
