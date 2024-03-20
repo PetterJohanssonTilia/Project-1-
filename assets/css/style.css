@@ -19,6 +19,7 @@ body {
     /* Generic project styles*/
     color: #ffffff;
     font-family: 'Pridi', sans-serif;
+    margin: 0px;
 }
 
 
@@ -570,5 +571,3 @@ footer {
         margin-top: 150px;
     }
 }
-
-
