@@ -561,4 +561,8 @@ footer {
     #submit-stories-form{
         margin-top: 150px;
     }
+    .submit-stories-button {
+        font-size: 200%;
+        width: 300px;
+    }
 }
