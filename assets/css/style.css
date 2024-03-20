@@ -39,8 +39,7 @@ h3, h5 {
 /* Header */
 header {
     background-color: #333A73;
-    padding: 0 1rem;
-    position: fixed;
+    position: sticky;
     z-index: 99;
     width: 100%;
     /* horisontal - vertical - shadowblur - color */
