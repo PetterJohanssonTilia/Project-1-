@@ -128,48 +128,29 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 # UX
 ## Goals
 ### Visitor Goals
-The target audience for Horizon Photography are:
-- People who want to view beautiful photos.
-- People who are interested in seeing different countries.
-- People that may want to license a photo.
-- People interested in hiring a photographer.
-- People interested in the photographer's travels.
+The target audience for Angry Neighors are:
+- People who want read satire articles.
+- People who are interested in other peoples stories and photos.
+- People that want to share their stories and  photos.
+
 
 User goals are:
-- View a gallery of different photos.
-- Explore different countries on the map to see what they look like.
-- Contact the photographer.
-- Get an overview of a country's statistics.
-- Follow the photographer's journey.
+- View and submit photos.
+- Read and submit stories.
+- Read the articles.
 
 Horizon Photography fills these needs by:
-- Opening with a dramatic image and introducing the photographer immediately.
-- The map and gallery are highlighted on the main page to lead users to the images wherever they click.
-- Highlighting the Contact page in the header and footer.
-- Providing social media links to follow the photographer.
-- 500px link allows a user to license photos.
-- Providing an interactive map with an info-box that displays country info from an API
-- Showing beautiful images related to each country when clicked.
-- Utilising [EmailJS](https://www.emailjs.com/) to maintain the contact page and the newsletter.
-
-### Business Goals
-The Business Goals of Horizon Photography are:
-- Display and highlight the photographer's work in a unique way.
-- Gain subscribers through the newsletter.
-- Provide easy ways to communicate with the photographer.
-- Gain interest and connect with social media.
-- Connect to where the photos are sold.
+- Putting the articles and a big colorful heropicture on the front page, capturing the users interest
+- letting the users navigate easily through the site
+- making the site very simple with little distractions
 
 ### User Stories
-1. As a user interested in photography, I expect to see lots of different beautiful photos.
-0. I expect the photos to be highlighted first and foremost.
-0. As a user interested in travel, I expect to see different countries on display.
-0. As a user interested in different countries, I expect to see information on the countries.
-0. As a person interested in hiring a photographer, I expect to find an easy way to contact the photographer.
-0. I expect to hear a little about the photographer if I am interested.
-0. I expect to be able to follow the photographer through social media.
-0. I would like to be able to hear about the photographer's updates through social media.
-0. If I were interested in buying a photo, I expect to know where.
+1. As a user interested in satire news, I expect to see lots of different articles on up to date topics.
+0. I expect the Gallery to be updated with photos from all around the world
+0. As a user interested in laughing at other peoples missery, I expect to see real world stories
+0. I expect to be able to follow the company through social media.
+0. I would like to view the gallery images on any device
+0. If I were interested in submiting a story, I expect to know where.
 
 ## Visual Design
 ### Wireframes
@@ -180,10 +161,10 @@ Wireframes: https://drive.google.com/drive/folders/1WwDSap35rXV1i8_9hCPBqiXvpMdo
   <img src="https://user-images.githubusercontent.com/44118951/92331221-6f750000-f075-11ea-8096-288bcc957e33.png" alt="Fonts">
 </div>
 
-- The primary font, [Montserrat](https://fonts.google.com/specimen/Montserrat#standard-styles) was chosen because it is standard, plain and informative but not too rigid. It looks friendly and conversational but holds a seriousness. It is also sans-serif, making it very easily readable throughout different color schemes and complementary to the font used for Headings.
-- The secondary font, [Julius Sans One](https://fonts.google.com/specimen/Julius+Sans+One#standard-styles) was chosen because it is thin, elegant and refined yet it has flair. As a font, it gave me the impression of an art gallery. It is sans-serif, so it is clear, clean and simple, maintaining the idea of a minimalist aesthetic. It was chosen for headings as it is evident but doesn't distract, keeping the eyes more focused on the photography.
-
+- The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes
+- The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page
 ### Icons
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/44118951/92331590-1fe40380-f078-11ea-814b-d15b413f59aa.png" alt="Icons">
 </div>
