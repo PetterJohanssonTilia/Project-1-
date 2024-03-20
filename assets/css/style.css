@@ -52,7 +52,14 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+    padding-left: 20px;
 }
+
+header label {
+  
+    padding-right: 20px;
+}
+
 
 #menu {
     font-size: 110%;
