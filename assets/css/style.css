@@ -38,6 +38,8 @@ h3, h5 {
 
 /* Header */
 header {
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: -2px -2px 2px #000000;
     background-color: #333A73;
     position: sticky;
     z-index: 99;
