@@ -65,7 +65,6 @@ header label {
     padding-right: 20px;
 }
 
-
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -119,7 +118,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/2103.i518.018.S.m005.c12.suburban\ house\ night.jpg") no-repeat center center/cover;
+    background: url("../images/hero-background.jpg") no-repeat center center/cover;
     position: relative;
 }
 
