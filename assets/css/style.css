@@ -78,7 +78,6 @@ header label {
 .active {
     border-bottom: solid #FBA834;
 }
-
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
@@ -439,7 +438,8 @@ footer {
 @media screen and (min-width: 992px) {
     /* Add hover effect on the menu */
     #menu a:hover{
-        border-bottom: solid #3a3a3a3a;
+        border-bottom: solid #FBA834;
+
     }
 
     h1 {
