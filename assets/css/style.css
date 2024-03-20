@@ -225,6 +225,9 @@ footer {
     font-size: 20px;
 }
 /* Submit button */
+#submit-stories-button-link{
+    text-decoration: none;
+}
 .submit-stories-button {
     align-self: center;
     text-align: center;
@@ -232,12 +235,12 @@ footer {
     margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2px;
+    border-radius: 100px;
     padding: 15px 32px;
     font-size: 120%;
     width: 200px;
-    background-color: #e2e6ff;
     font-weight: bolder;
+    text-decoration: none;
     color: #000000;
     background: linear-gradient(25deg, #FBA834, #ffcd87);
 }
