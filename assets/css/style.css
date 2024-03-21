@@ -1,7 +1,7 @@
 /*Google fonts import*/
 @import url('https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Angkor&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pridi:wght@200;300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=swap');
 
 /*Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -10,7 +10,6 @@
     box-sizing: border-box;
 }
 /* General styles */
-
 body {
     background-color: #181d3f; 
     min-height: 100vh;
@@ -36,9 +35,8 @@ h3, h5 {
 }
 
 
-/* Header */
+/* ========= Header ========= */
 header {
-    /* offset-x | offset-y | blur-radius | color */
     text-shadow: -2px -2px 2px #000000;
     background-color: #333A73;
     position: sticky;
@@ -46,8 +44,6 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    /* horisontal - vertical - shadowblur - color */
-    /*box-shadow: 0 2px 2px #3a3a3a3a;*/
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -90,8 +86,6 @@ nav {
     z-index: 99;
     width: 100%;
     left: 0;
-    /* horisontal - vertical - shadowblur - color */
-    /*box-shadow: 0 2px 2px #3a3a3a3a;*/
     display: none;
     top: 99%;
 }
@@ -110,13 +104,13 @@ nav {
     color: #FBA834;
 }
 
-/* Main content */
+/* ========= Main content ========= */
 main {
     /* Make main element take up any surplus space to push footer down */ 
     flex: 1 0 auto;
 }
 
-/* Hero section */
+/* ========= Hero section ========= */
 #hero {
     height: 600px;
     width: 100%;
@@ -137,8 +131,7 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #FBA834;
 }
-/* News Section */
-
+/* ========= News Section ========= */
 #news {
     width: 90%;
     margin-top: 20px;
@@ -158,7 +151,6 @@ main {
 }
 
 /* News articles */
-
 .article {
     max-width: 99%;
     background-color: #041837;
@@ -181,14 +173,13 @@ main {
 .article h3 {
     font-size: 100%;
 }
-/* Footer */
+/* ========= Footer ========= */
 
 footer {
     background-color: #333A73;
 }
 
 /* ========= Gallery ==========*/
-
 #gallery {
     padding-top: 20px;
 }
@@ -202,7 +193,6 @@ footer {
 
 
 /* ========= Stories ==========*/
-
 #stories-container {
     margin-top: 50px;
     display: flex;
@@ -251,7 +241,7 @@ footer {
     background: linear-gradient(25deg, #fdb550, #f8d19a);
 }
 
-/* ========= Submit stories ==========/*
+/* ========= Submit stories ========= /*
 
 /* Submit-Stories Section */
 #submit-stories {
@@ -528,9 +518,8 @@ footer {
     padding-top: 40px;
     }
     /* Submit stories */ 
-    /* Stories-Form */
-
     
+    /* Stories-Form */
     #submit-stories-form {
         width: 70%;
         margin: auto;
