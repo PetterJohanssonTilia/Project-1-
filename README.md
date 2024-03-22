@@ -12,6 +12,7 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 ## Table of Contents
 1. <details open>
     <summary><a href="#ux">UX</a></summary>
+
     <ul>
     <li><details>
     <summary><a href="#goals">Goals</a></summary>
@@ -56,7 +57,6 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 
     <li><details>
     <summary><a href="#feature-ideas">Feature Ideas</a></summary>
-
     - [Basic](#basic)
     - [Content](#content)
     </details></li>
@@ -80,7 +80,6 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
     <ul>
     <li><details>
     <summary><a href="#methods">Methods</a></summary>
-
     - [Validation](#validation)
     - [General Testing](#general-testing)
     - [Mobile Testing](#mobile-testing)
@@ -102,14 +101,12 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
     <ul>
     <li><details>
     <summary><a href="#local-deployment">Local Deployment</a></summary>
-
     - [Local Preparation](#local-preparation)
     - [Local Instructions](#local-instructions)
     </details></li>
 
     <li><details>
     <summary><a href="#github-deployment">Github Deployment</a></summary>
-
     - [Github Preparation](#github-preparation)
     - [Github Instructions](#github-instructions)
     </details></li>
@@ -118,7 +115,7 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 
 6. <details open>
     <summary><a href="#credit-and-contact">Credit and Contact</a></summary>
-
+    
     - [Content](#content)
     - [Contact](#contact)
 </details>
@@ -132,7 +129,6 @@ The target audience for Angry Neighors are:
 - People who want read satire articles.
 - People who are interested in other peoples stories and photos.
 - People that want to share their stories and  photos.
-
 
 User goals are:
 - View and submit photos.
@@ -161,11 +157,10 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 <div align="center">
   <img src="./assets/readme/images/Fonts.JPG" alt="Fonts">
 </div>
-
 - The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes
 - The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page
-### Icons
 
+### Icons
 <div align="center">
   <img src="./assets/readme/images/Icons.JPG" alt="Icons">
 </div>
@@ -214,7 +209,6 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 #### Footer
 <div align="center">
   <img src="./assets/readme/images/Icons.JPG" alt="Footer">
-
 </div>
 
 - Located at the bottom of every page, only highlighting social sites.
@@ -264,6 +258,7 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 ## Methods
 ### Validation
 - HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+- HTML has been validated with [Wave.webaim HTML5 Validator](https://wave.webaim.org/).
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
@@ -286,14 +281,14 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ## Bugs
 ### Known Bugs
-- 
+- wave.webaim.org validator reports empty labels while using the Fontawesome i elements
+- wave.webaim.org validator thinks Home button has adjacent links with the same url
 
 ### Fixed Bugs
 - Post method on the form not working Issue:https://github.com/PetterJohanssonTilia/Project-1-/issues/1
 - CSS validator error - https://github.com/PetterJohanssonTilia/Project-1-/issues/2
 - Wrong sizing of objects through different screens
 -  Wrong sizing of text through different screens
-
 
 ----
 
