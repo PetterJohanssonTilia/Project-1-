@@ -9,7 +9,8 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* General styles */
+
+/* ========= General styles ========= */
 body {
     background-color: #181d3f; 
     min-height: 100vh;
@@ -21,9 +22,7 @@ body {
     margin: 0px;
 }
 
-
 h1, h2, h3 {
-    
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FBA834;
@@ -33,7 +32,6 @@ h3, h5 {
     letter-spacing: 1px;
     color: #ffffff;
 }
-
 
 /* ========= Header ========= */
 header {
@@ -75,9 +73,11 @@ header label {
     margin-bottom: 1em;
 }
 
+/* menu underscore effect */
 .active {
     border-bottom: solid #FBA834;
 }
+
 /*Navbar styles with dropdown toggle*/
 nav {
     position: absolute;
@@ -104,7 +104,7 @@ nav {
     color: #FBA834;
 }
 
-/* ========= Main content ========= */
+/* ========= Main ========= */
 main {
     /* Make main element take up any surplus space to push footer down */ 
     flex: 1 0 auto;
@@ -131,6 +131,7 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #FBA834;
 }
+
 /* ========= News Section ========= */
 #news {
     width: 90%;
@@ -139,9 +140,11 @@ main {
     margin: auto;
     text-align: center;
 }
+
 #news h1{
     background-color: #333A73;
 }
+
 /* News article wrapper */
 #newswrapper {
     margin-top: 25px;
@@ -173,8 +176,8 @@ main {
 .article h3 {
     font-size: 100%;
 }
-/* ========= Footer ========= */
 
+/* ========= Footer ========= */
 footer {
     background-color: #333A73;
 }
@@ -184,13 +187,10 @@ footer {
     padding-top: 20px;
 }
 
-
 #photos img {
     width: 100%;
     line-height: 1em;
-   
 }
-
 
 /* ========= Stories ==========*/
 #stories-container {
@@ -203,9 +203,11 @@ footer {
     margin: auto;
     background-image: url(../images/background-gradient.png);
 }
+
 #stories-container p{
     font-family: pontano-sans;
 }
+
 .item {
     margin-bottom: 50px;
     background-color: #041837;
@@ -213,13 +215,16 @@ footer {
     border: 5px solid #FBA834;
     padding: 5px;
 }
+
 .item p {
     font-size: 20px;
 }
+
 /* Submit button */
 #submit-stories-button-link{
     text-decoration: none;
 }
+
 .submit-stories-button {
     align-self: center;
     text-align: center;
@@ -242,7 +247,6 @@ footer {
 }
 
 /* ========= Submit stories ========= /*
-
 /* Submit-Stories Section */
 #submit-stories {
     display: flex;
@@ -262,9 +266,11 @@ footer {
     border-radius: 5px;
     border: 5px solid #FBA834;
 }
+
 #submit-stories-form h1{
         margin-bottom: 20px;
-    }
+}
+
 #submit-stories p{
     text-align: center;
     margin-top: 10px;
@@ -278,9 +284,9 @@ footer {
     border: 1px solid #041837;
     border-radius: 20px;
     padding: 0 5px;
-
-/* Story - text */  
 }
+
+/* Story - text */ 
 .story-text-input{
     background: white;
     width: 100%;
@@ -288,17 +294,16 @@ footer {
     border: 1px solid #041837;
     border-radius: 20px;
     padding: 0 5px;
-    
 }
-/* Stories radio-buttons */
 
+/* Stories radio-buttons */
 /* Container */
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
-
 }
+
 /* Hides the radiobutton */
 .radio-buttons-hidden {
     position: absolute;
@@ -310,7 +315,6 @@ footer {
     font-size: 300%;
     background-color: #04183700;
 }
-
 
 /* Radio button */
 .radio-button {
@@ -332,7 +336,6 @@ footer {
 }
 
 /* Colors the labels/emojis for radiobuttons */
-
 #frustrated {
     color: #f7b85f;
 }
@@ -345,8 +348,6 @@ footer {
     color: #ff3c19;
 }
 
-
-
 /* Submit-Button - Share your pain */
 .submit-button {
     margin-top: 20px;
@@ -358,8 +359,6 @@ footer {
     color: #FBA834;
 }
 
-
-
 /* Footer */
 #social-networks {
     display: flex;
@@ -367,24 +366,23 @@ footer {
     padding: 10px;
     list-style-type: none;
     text-align: center;
-    /*Padding top - right - bottom - left*/
 }
+
 #social-networks i{
     font-size: 160%;
     padding: 5%;
     color: #FBA834;
 }
 
-
 /* Media query: Large phones and landscape phones(576px and up) */
 @media screen and (min-width: 576px){
-    
     /*Gallery */
     #photos {
         column-count: 2;
         column-gap: 0;
     }
 }
+
 /* Media query: Tablets and larger (768px and up) */
 @media screen and (min-width: 768px){ 
     /* Header */
@@ -395,6 +393,7 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
@@ -414,6 +413,7 @@ footer {
         left: 50px;
         font-size: 120%;
     }
+
     /* News section */
     .article h3 {
         font-size: 150%;
@@ -424,10 +424,10 @@ footer {
         column-count: 3;
         column-gap: 0;
     }
+
      /* Stories-Form */
      #submit-stories {
         margin-top: 20px;
-        
      }
 }
   
@@ -436,7 +436,6 @@ footer {
     /* Add hover effect on the menu */
     #menu a:hover{
         border-bottom: solid #FBA834;
-
     }
 
     h1 {
@@ -466,20 +465,20 @@ footer {
     }
 
     /* Stories-Form */
-
-    
     #submit-stories-form {
         width: 80%;
         margin: auto;
+    }
 
     /* hover effects */
-    }
     .submit-button:hover {
         background-color: #51588f;
     }
+
     .text-input:hover {
         border: 5px solid #FBA834;
     }
+
     .story-text-input:hover {
         border: 5px solid #FBA834;
     }
@@ -492,10 +491,10 @@ footer {
     }
 
     /* Navigation */
-
     #menu {
         font-size: 150%;
     }
+
    /* Hero section */
     #cover-text {
     width: 20%;
@@ -506,6 +505,7 @@ footer {
     #newswrapper {
         flex-direction: row;
    }
+
    .article {
     width: 100%;
    }
@@ -513,18 +513,20 @@ footer {
    .article h3 {
     font-size: 200%;
     }
+
     /* Gallery */
     #gallery {
     padding-top: 40px;
     }
+
     /* Submit stories */ 
-    
     /* Stories-Form */
     #submit-stories-form {
         width: 70%;
         margin: auto;
+    }
 }
-}
+
 /* Media query: Laptops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
     h1 {
@@ -532,7 +534,6 @@ footer {
     }
 
     /* Navigation */
-
     #menu {
         font-size: 200%;
     }
@@ -547,6 +548,7 @@ footer {
     #newswrapper {
         flex-direction: row;
    }
+
    .article {
         width: 100%;
    }
@@ -554,10 +556,12 @@ footer {
    .article h3 {
         font-size: 200%;
     }
+
     /* Gallery */
     #gallery {
         padding-top: 80px;
     }
+
     /* Story */
     .item p {
         font-size: 30px;
@@ -567,6 +571,7 @@ footer {
     #submit-stories{
         font-size: 200%;
     }
+    
     .submit-stories-button {
         font-size: 200%;
         width: 300px;
