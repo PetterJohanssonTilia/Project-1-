@@ -323,7 +323,7 @@ footer {
 }
 
 /* Change background color when radio button is checked */
-.radio-button:has(input:checked){
+.radio-button:has( input:checked){
     background-color: #213e6b; 
 }
 
