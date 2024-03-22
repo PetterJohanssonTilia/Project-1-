@@ -193,13 +193,8 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 - As such, the images are displayed all jumbled together to showcase more of a collage for the user to explore
 
 ### Styling
-- For this project I have utilised Bootstrap 4.5 source files to override their class defaults to my liking, making customisation much easier. The entire site can be restyled with a single switch in the code.
-- The primary and secondary colors have been applied to bootstrap classes for easy use across the site.
-- Using the SASS, sharp-edged boxes have been applied by default, taking advantage of the features.
-- Responsive text sizing has also been enabled using SASS.
-- As the site has a beeline focus on use, links on each page are re-used to direct the user to either the Gallery or the Contact page no matter where they look.
-- Animations are utilised for smoothness in certain transitions, such as when a new country is selected in the gallery or on the Travel Gallery link.
-
+- For this project I used flexbox to make it more responsive and for it's ease of use. Instead of tables, grids and floats
+- I used a has function for the "anger scale" buttons to indicate they've been selected
 ----
 
 # Features
@@ -291,15 +286,14 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ## Bugs
 ### Known Bugs
-- Occasionally on a device with low RAM, the Google Maps API won't load.
-- Devices with low RAM may have stuttered animations.
-- Offline, using the backup map, the images don't switch the first time the page loads. No errors are shown on the console. A refresh usually solves the issue.
-- Very slow connections may have users see the thumbnails pop in during iframe loading, rather than having the switch occur during the animation.
+- 
 
 ### Fixed Bugs
+- Post method on the form not working Issue:https://github.com/PetterJohanssonTilia/Project-1-/issues/1
+- CSS validator error - https://github.com/PetterJohanssonTilia/Project-1-/issues/2
 - Wrong sizing of objects through different screens
--  Font sizes being too small or too big on different screens
-- Post method on the form not working (radiobutton couldn't be displayed:none instead use zindex)
+-  Wrong sizing of text through different screens
+
 
 ----
 
@@ -307,41 +301,12 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 ## Local Deployment
 ### Local Preparation
 **Requirements:**
-- An IDE of your choice, such as [Visual Studio Code](https://code.visualstudio.com/)
-- [Git](https://git-scm.com/)
-- You will have to set up a connection with an email server through EmailJS:
-- You will have to install SASS to compile the CSS. This depends on your system and your method choice. Please see the instructions [here](https://sass-lang.com/install).
+-A webbrowser of your choice, Chrome being recommended
 
 ### Local Instructions
-1. Download a copy of the project repository [here](https://github.com/Ri-Dearg/neverlost-thrift/archive/master.zip) and extract the zip file to your base folder. Or you can clone the repository with:
-    ```
-    git clone https://github.com/Ri-Dearg/neverlost-thrift
-    ```
-    To disconnect it from the master repository, use:
-    ```
-    git remote rm origin
-    ```
-2. Open your IDE and choose the base directory.
-3. Here you can install SASS with npm, if you choose, with:
-    ```
-    npm install -g sass
-    ```
-4. Run the compiler with:
-    ```
-    sass --watch assets/css/bootstrap_sass:assets/css
-    ```
-    This will also watch the bootstrap_sass folder for changes and re-compile the CSS when they are made. This way you can make changes quickly and not worry about re-compiling.
-6. Switch the user token for EmailJS with your own. It can be found in the head tag:
-    ```
-    (function () {
-        emailjs.init("<your user token>");
-    })();
-    ```
-5. Run the project with your chosen method. You can drop index.html into a web browser and it should run fine, open a local port and access it or, if you have python installed, run it on an HTTP server with python with a command such as:
-    ```
-    python3 -m http.server
-    ```
-6. Enjoy the site!
+1. Download a copy of the project repository [here](https://github.com/PetterJohanssonTilia/Project-1-/archive/refs/heads/main.zip) and extract the zip file
+2. Open the index.html file in your browser, This file can be dragged and droped into your browser to open it.
+3. Enjoy the site!
 
 ## Github Deployment
 ### Github Preparation
@@ -352,14 +317,14 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ### Github Instructions
 1. Log in to your GitHub account.
-navigate to [https://github.com/Ri-Dearg/neverlost-thrift](https://github.com/Ri-Dearg/neverlost-thrift).
+navigate to [https://github.com/PetterJohanssonTilia/Project-1-](https://github.com/PetterJohanssonTilia/Project-1-).
 1. You can set up your own repository and copy or clone it, or you fork the repository.
 2. `git add`, `git commit` and `git push` to a GitHub repository, if necessary.
-3. GitHub pages will update from the master branch by default.
+3. GitHub pages will update from the Main branch by default.
 4. Go to the **Settings** page of the repository.
 5. Scroll down to the **Github Pages** section.
-7. Select the Master Branch as the source and **Confirm** the selection.
-8. Wait a minute or two and it should be live for viewing. See my own [here](https://ri-dearg.github.io/horizon-photo/).
+7. Select the Main Branch as the source and **Confirm** the selection.
+8. Wait a minute or two and it should be live for viewing.
 
 ## Credits and Contact
 ### Content
