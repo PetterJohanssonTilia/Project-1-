@@ -262,13 +262,11 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 - CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
 - Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
-| Validator     | URL           | Index       | gallery  | stories | submit stories|
-| ------------- |:-------------:| -----------:| --------:| -------:| -------------:|
-| col 3 is      | right-aligned | $1600       | pic      | pic     | pic           |
-| col 3 is      | right-aligned | $1600       | pic      | pic     | pic           |
-| col 3 is      | right-aligned | $1600       | pic      | pic     | pic           |
-| col 3 is      | right-aligned | $1600       | pic      | pic     | pic           |
-| col 3 is      | right-aligned | $1600       | pic      | pic     | pic           |
+| Problems     | Index       | Gallery  | Stories | Submit stories|
+| ------------- |:-------------:| -----------:| --------:| -------:|
+|      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
+| Warnings      | right-aligned | $1600| pic| Section lacks heading.|
+| Bugs | hello| hello| hello| hello|
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
