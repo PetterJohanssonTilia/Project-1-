@@ -132,7 +132,24 @@ main {
 #cover-text > h2, #cover-text > h3 {
     color: #FBA834;
 }
-
+/* ========= Introduction Section ========= */
+#introduction {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+    text-align: center;
+}
+#introduction h1{
+    background-color: #333A73;
+}
+/* News article wrapper */
+#introductionwrapper {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /* ========= News Section ========= */
 #news {
     width: 90%;
