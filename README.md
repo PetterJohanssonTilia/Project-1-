@@ -141,12 +141,12 @@ Horizon Photography fills these needs by:
 - making the site very simple with little distractions
 
 ### User Stories
-1. As a user interested in satire news, I expect to see lots of different articles on up to date topics.
-0. I expect the Gallery to be updated with photos from real users
-0. As a user interested in laughing at other peoples missery, I expect to see real world stories
-0. I expect to be able to follow the company through social media.
-0. I would like to view the gallery images on any device
+
+1. As a user interested in laughing at other peoples missery, I expect to see real world stories.
+0. As a user I'd like to be able to share my own stories
 0. If I were interested in submiting a story, I expect to know where.
+0. I would like to view the gallery images on any device
+0. I expect to be able to follow the company through social media.
 
 ## Visual Design
 ### Wireframes
