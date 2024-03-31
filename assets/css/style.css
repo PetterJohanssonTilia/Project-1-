@@ -140,14 +140,10 @@ main {
     
 }
 
-#introduction h1{
-    font-size: 2rem;
-    background-color: #333A73;
-}
-
 #introduction h2{
     font-size: 1.2rem;
     margin-bottom: 10px;
+    background-color: #333A73;
 }
 /* Introduction wrapper */
 #introductionwrapper {
@@ -171,8 +167,8 @@ main {
     text-align: center;
 }
 
-#news h1{
-    font-size: 2rem;
+#news h2{
+    font-size: 1.2rem;
     background-color: #333A73;
 }
 
