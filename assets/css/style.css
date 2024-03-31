@@ -216,6 +216,12 @@ footer {
     padding-top: 20px;
 }
 
+#gallery h2{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #333A73;
+}
+
 #photos img {
     width: 100%;
     line-height: 1em;
