@@ -267,7 +267,7 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 |      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
 | Warnings      | None | None| Section lacks heading.| None|
 | Bugs | None| None| None| None|
-| Alerts | Adjacent links go to the same URL.| None| None| None|
+| Alerts | None| None| None| None|
 |Errors | None| None| None| None|
 
  HTML has been validated with [Wave.webaim HTML5 Validator](https://wave.webaim.org/).
@@ -281,8 +281,18 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 | Alerts | Adjacent links go to the same URL| Adjacent links go to the same URL| Adjacent links go to the same URL| Adjacent links go to the same URL|
 | Errors | A form label is present, but does not contain any content| A form label is present, but does not contain any content| A form label is present, but does not contain any content| A form label is present, but does not contain any content|
 
+The alerts are because you can click the link to get to the page that you're currently on<br>
+The form label not containing content is a known bug that you can find under <a href="#bugs">Bugs</a></br></br>
+CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+ <img src="assets/readme/validator/wc3cssvalidator.PNG">
+<img src="assets/readme/validator/wc3cssvalidation.PNG">
+Results are no errors found
 
- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
+  and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
+
+
+
+
  Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 ### General Testing
@@ -304,8 +314,8 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ## Bugs
 ### Known Bugs
-- wave.webaim.org validator reports empty labels while using the Fontawesome i elements
-- wave.webaim.org validator thinks Home button has adjacent links with the same url
+- wave.webaim.org validator reports empty labels while using the Fontawesome i elements with no other text inside.
+- wave.webaim.org validator warns that the home button link takes you to the home page while currently on the home page.
 
 ### Fixed Bugs
 - Post method on the form not working Issue:https://github.com/PetterJohanssonTilia/Project-1-/issues/1
