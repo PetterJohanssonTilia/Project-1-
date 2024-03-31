@@ -5,7 +5,7 @@
 
 <h1>Angry neighbors</h1>
 This is a HTML/CSS only portfolio-project. <br>
-The website is designed to be a satire-news site with the focus on bad neighbors. The website also allows for users to upload their own photos and share their real world neighbor stories. The goal is to make the website fun. You'll either laugh at the satire articles or laugh/symphatise with other people that don't have the best of neighbors.<br><br>
+The website is designed to be a hub for people that likes to complain about their neighbours. The website offers satirical articles. The website also allows for users to upload their own photos and share their real world neighbor stories. The goal is to make the website fun. You'll either laugh at the satire articles or laugh/symphatise with other people that don't have the best of neighbors.<br><br>
 
 The design is stylized in a cartoonish way to emphasize the light-heartedness of the website and to prevent it from becoming a place meant to promote actual hate of your neighbors.
 
@@ -127,7 +127,7 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 ### Visitor Goals
 The target audience for Angry Neighors are:
 - People who want read satire articles.
-- People who are interested in other peoples stories and photos.
+- People who want to laugh at other peoples stories and photos
 - People that want to share their stories and  photos.
 
 User goals are:
@@ -135,18 +135,20 @@ User goals are:
 - Read and submit stories.
 - Read the articles.
 
-Horizon Photography fills these needs by:
+Angry Neighbors fills these needs by:
 - Putting the articles and a big colorful heropicture on the front page, capturing the users interest
-- letting the users navigate easily through the site
-- making the site very simple with little distractions
+- letting the users navigate easily through the site.
+- making the site very simple with little distractions.
+- Putting all the gallary images in a collage letting the user feel like they're the ones finding the new fun photos
+- Putting a big "submit your own story" button on the story page, encouraging members to contribute with even more content
 
 ### User Stories
 
 1. As a user interested in laughing at other peoples missery, I expect to see real world stories.
-0. As a user I'd like to be able to share my own stories
+0. As a user I'd like to be able to share my own stories.
 0. If I were interested in submiting a story, I expect to know where.
-0. I would like to view the gallery images on any device
-0. I expect to be able to follow the company through social media.
+0. I would like to view the gallery images on any device.
+0. I expect to be able to follow Angry neighbors through social media.
 
 ## Visual Design
 ### Wireframes
@@ -157,8 +159,8 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 <div align="center">
   <img src="./assets/readme/images/fonts1.JPG" alt="Fonts">
 </div>
-- The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes
-- The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page
+- The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes.
+- The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page.
 
 ### Icons
 <div align="center">
@@ -174,7 +176,7 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
   <img src="./assets/readme/images/colorpalette.png" alt="Color Pallette">
 </div>
 
-- I wanted the site to look friendly, cartoonish and light hearted
+- I wanted the site to look friendly, cartoonish and light hearted.
 - The primary color used is the deep blue. This is used to create a stark contrast with the colors of the other elements on the page, drawing the eyes and focus on them.
 - One accent color was chosen, the dark yellow, to give a feeling of "warning", reminiscing of a stop signal to showcase that this is a site of satirical complaints.
 - Text is primarily written in white to contrast on the bold color backgrounds of the primary and accent colors.
@@ -184,12 +186,12 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
   <img src="./assets/readme/images/gallery.JPG" alt="Gallery Images">
 </div>
 
-- The site has little focus on the images and therefore doesn't display them front and center
-- As such, the images are displayed all jumbled together to showcase more of a collage for the user to explore
+- For people to feel more engaged the pictures are presented as a collage allowing the users to "find" new and fun picture.
+- By having them displayed as a collage while also allowing users to upload photos by sending in an email the user won't be able to see all the photos and therefor encourages the user to visit the site often to not miss anything.
 
 ### Styling
-- For this project I used flexbox to make it more responsive and for it's ease of use. Instead of tables, grids and floats
-- I used a has function for the "anger scale" buttons to indicate they've been selected
+- For this project I used flexbox to make it more responsive and for it's ease of use. Instead of tables, grids and floats.
+- I used a has function for the "anger scale" buttons to indicate they've been selected.
 ----
 
 # Features
@@ -197,7 +199,10 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 ### All Pages
 #### Navbar
 <div align="center">
-  <img src="./assets/readme/images/navbar.png" alt="Two navbars">
+  <img src="./assets/readme/images/navbarextended.png" alt="navbar">
+  <img src="./assets/readme/images/navbarcollapsed.png" alt="navbar collapsed">
+  
+  <img src="assets/readme/images/submitstorynavbarphone.PNG" style="height: 200px" alt="navbar extended">
 </div>
 
 - The Navbar is simple, providing four options.
@@ -216,10 +221,11 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ### Index Page
 #### Jumbotron Image
-<img src="assets/readme/images/splashimage.PNG">
+<img src="assets/readme/images/splashimage.PNG" alt="Splash image">
 
 - Picture taken from pixabay <a href="https://pixabay.com/">Pixabay</a>.
 - Used as a splash image that highlights a cartoonish neighborhood at night.
+The cartoonish style helps convey that this sites articles are satirical
 - An image with a mountain in the middle that stays in the center of the screen on all devices.
 ----
 
@@ -262,10 +268,10 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 ### Validation
  HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
 
-<img src="assets/readme/validator/wc3validator.PNG">
+<img src="assets/readme/validator/wc3validator.PNG" alt="wc3 validator">
 
 
-| Problems     | Index       | Gallery  | Stories | Submit stories|
+|     | Index       | Gallery  | Stories | Submit stories|
 | ------------- |:-------------:| -----------:| --------:| -------:|
 |      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
 | Warnings      | None | None| Section lacks heading.| None|
@@ -274,9 +280,9 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 |Errors | None| None| None| None|
 
  HTML has been validated with [Wave.webaim HTML5 Validator](https://wave.webaim.org/).
- <img src="assets/readme/validator/wavevalidator.PNG">
+ <img src="assets/readme/validator/wavevalidator.PNG" alt="wave validator">
 
- | Problems     | Index       | Gallery  | Stories | Submit stories|
+ |     | Index       | Gallery  | Stories | Submit stories|
 | ------------- |:-------------:| -----------:| --------:| -------:|
 |      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
 | Warnings      | None | None| None| None|
@@ -287,33 +293,33 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 The alerts are because you can click the link to get to the page that you're currently on<br>
 The form label not containing content is a known bug that you can find under <a href="#bugs">Bugs</a></br></br>
 
- HTML has been validated with [PageSpeed Insights](https://pagespeed.web.dev/).
+ Website speed optimisation has been checked with [PageSpeed Insights](https://pagespeed.web.dev/).
 
-<img src="assets/readme/validator/pagespeedinsights.PNG">
+<img src="assets/readme/validator/pagespeedinsights.PNG" alt="page speed insight">
 
 
-| Problems     | Index       | Gallery  | Stories | Submit stories|
+|     | Index       | Gallery  | Stories | Submit stories|
 | ------------- |:-------------:| -----------:| --------:| -------:|
 |      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
-| Warnings      | None | None| Section lacks heading.| None|
-| Bugs | None| None| None| None|
-| Alerts | None| None| None| None|
-|Errors | None| None| None| None|
+| Mobile      | <img src="assets/readme/validator/pagespeedmobileindex.PNG"> | <img src="assets/readme/validator/pagespeeddesktopgallery.PNG">| <img src="assets/readme/validator/pagespeedmobilestories.PNG">| <img src="assets/readme/validator/pagespeedmobilesubmitstories.PNG">|
+| Desktop | <img src="assets/readme/validator/pagespeeddesktopindex.PNG">| <img src="assets/readme/validator/pagespeedmobilegallery.PNG">| <img src="assets/readme/validator/pagespeeddesktopstories.PNG">| <img src="assets/readme/validator/pagespeeddesktopsubmitstories.PNG">|
+| Biggest issue | Images size and format not optimised| Images size and format not optimised| Images size and format not optimised| None|
+
 
 CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
- <img src="assets/readme/validator/wc3cssvalidator.PNG">
-<img src="assets/readme/validator/wc3cssvalidation.PNG">
+ <img src="assets/readme/validator/wc3cssvalidator.PNG" alt="wc3 css validator">
+<img src="assets/readme/validator/wc3cssvalidation.PNG" alt="wc3 css validator results">
 Results are no errors found
 
   and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
-<img src="assets/readme/validator/cssautoprefixer.PNG">
+<img src="assets/readme/validator/cssautoprefixer.PNG" alt="autoprefixer css online">
 
 
 
  Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
- <img src="assets/readme/validator/wc3linkerchecker.PNG">
+ <img src="assets/readme/validator/wc3linkerchecker.PNG" alt="wc3 link checker">
  All links and anchors are working. The link checker couldn't check facebook and twitter due to robots exlusion rules and therefore had to be manually tested. 
-  <img src="assets/readme/validator/brokenlinks.PNG">
+  <img src="assets/readme/validator/brokenlinks.PNG" alt="wc3 link checker result">
 
 
 ### General Testing
@@ -324,7 +330,7 @@ Results are no errors found
 - External links open in a new tab.
 
 ### Manual Testing
-- Checked the links to twitter and facebook in the footer
+- Checked the links to twitter and facebook in the footer.
 
 ### Mobile Testing
 - I tested the site personally on my Android device, going through the entire process, checking buttons, functions, checking out, etc. I was personally unable to test on iOS.
@@ -332,14 +338,49 @@ Results are no errors found
 - Chrome was utilised to inspect the site in mobile format, going through the pages and functions.
 
 ### Desktop Testing
-- the majority of testing occurred on Chrome and Edge
+- the majority of testing occurred on Chrome and Edge.
 - The site was tested by friends and relatives on numerous desktop devices.
-- Internet Explorer was not tested and the site was not developed with it in mind as support for the browser is gradually being dropped.
+- Internet Explorer was not tested and the site was not developed with it .in mind as support for the browser is gradually being dropped.
+
+### Testing User Stories
+
+1. As a user interested in laughing at other peoples missery, I expect to see real world stories.
+
+In the stories page you can find user submited stories</br>
+<img src="assets/readme/validator/stories.PNG" alt="stories page" style="height: 200px">
+
+0. As a user I'd like to be able to share my own stories.
+
+In the submit stories page you can easily submit your own stories
+<img src="assets/readme/validator/submitstories.PNG" alt="submit stories page" style="height: 200px">
+
+0. If I were interested in submiting a story, I expect to know where.
+
+You'll easily find the Submit story page by either looking at the navbar or while reading stories in the story page.
+
+<img src="assets/readme/images/submitstorynavbar.PNG" alt="navbar" style="height: 200px">
+<img src="assets/readme/images/submitstorynavbarphone.PNG" alt="navbar on phone" style="height: 200px">
+<img src="assets/readme/images/submitstory.png" alt="submit story page" style="height: 200px">
+
+0. I would like to view the gallery images on any device.
+
+The pages are responsive and will turn from rows on bigger screens to columns on smaller screens. The navbar will collapse and extend on different screen sizes too as previously shown.
+
+<img src="assets/readme/images/indexdesktop.PNG" alt="submit story page" style="height: 200px">
+
+<img src="assets/readme/images/indexmobile.png" alt="submit story page" style="height: 200px">
+
+
+0. I expect to be able to follow Angry neighbors through social media.
+
+You'll easily find the links the Angry neighbors social media in the footer on every page.
+
+<img src="assets/readme/images/footer.PNG" alt="submit story page" style="height: 40px">
 
 ## Bugs
 ### Known Bugs
-- wave.webaim.org validator reports empty labels while using the Fontawesome i elements with no other text inside.
-- wave.webaim.org validator warns that the home button link takes you to the home page while currently on the home page.
+- Wave.webaim.org validator reports empty labels while using the Fontawesome i elements with no other text inside.
+- Wave.webaim.org validator warns that navbar links are redundant: That you are be able to see a link to a page that you're currently on
 
 ### Fixed Bugs
 - Post method on the form not working Issue:https://github.com/PetterJohanssonTilia/Project-1-/issues/1
