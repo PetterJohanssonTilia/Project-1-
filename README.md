@@ -257,16 +257,33 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 # Testing
 ## Methods
 ### Validation
-- HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
-- HTML has been validated with [Wave.webaim HTML5 Validator](https://wave.webaim.org/).
-- CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
-- Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
+ HTML has been validated with [W3C HTML5 Validator](https://validator.w3.org/).
+
+<img src="assets/readme/validator/wc3validator.PNG">
+
 
 | Problems     | Index       | Gallery  | Stories | Submit stories|
 | ------------- |:-------------:| -----------:| --------:| -------:|
 |      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
-| Warnings      | right-aligned | $1600| pic| Section lacks heading.|
-| Bugs | hello| hello| hello| hello|
+| Warnings      | None | None| Section lacks heading.| None|
+| Bugs | None| None| None| None|
+| Alerts | Adjacent links go to the same URL.| None| None| None|
+|Errors | None| None| None| None|
+
+ HTML has been validated with [Wave.webaim HTML5 Validator](https://wave.webaim.org/).
+ <img src="assets/readme/validator/wavevalidator.PNG">
+
+ | Problems     | Index       | Gallery  | Stories | Submit stories|
+| ------------- |:-------------:| -----------:| --------:| -------:|
+|      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
+| Warnings      | None | None| None| None|
+| Bugs | None| None| None| None|
+| Alerts | Adjacent links go to the same URL| Adjacent links go to the same URL| Adjacent links go to the same URL| Adjacent links go to the same URL|
+| Errors | A form label is present, but does not contain any content| A form label is present, but does not contain any content| A form label is present, but does not contain any content| A form label is present, but does not contain any content|
+
+
+ CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
+ Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
