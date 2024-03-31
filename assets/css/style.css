@@ -227,6 +227,9 @@ footer {
     text-align: center;
     font-size: 1.2rem;
     background-color: #333A73;
+    width:fit-content;
+    padding: 5px;
+    margin: auto;
 }
 
 #photos img {
@@ -234,6 +237,10 @@ footer {
     line-height: 1em;
 }
 
+#gallery p{
+    text-align: center;
+    margin-bottom: 10px;
+}
 /* ========= Stories ==========*/
 #stories-container {
     margin-top: 50px;
@@ -423,6 +430,8 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+
+  
 }
 
 /* Media query: Tablets and larger (768px and up) */
