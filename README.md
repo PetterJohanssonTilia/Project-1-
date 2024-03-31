@@ -183,9 +183,10 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ### Images
 <div align="center">
-  <img src="./assets/readme/images/gallery.JPG" alt="Gallery Images">
+  <img src="./assets/readme/images/gallery.png" alt="Gallery Images">
 </div>
 
+- A gallery page to display all the images 
 - For people to feel more engaged the pictures are presented as a collage allowing the users to "find" new and fun picture.
 - By having them displayed as a collage while also allowing users to upload photos by sending in an email the user won't be able to see all the photos and therefor encourages the user to visit the site often to not miss anything.
 
@@ -227,6 +228,13 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 - Used as a splash image that highlights a cartoonish neighborhood at night.
 The cartoonish style helps convey that this sites articles are satirical
 - An image with a mountain in the middle that stays in the center of the screen on all devices.
+
+### Submit stories and photos
+<img src="assets/readme/images/sendphoto.PNG" alt="Splash image">
+<img src="assets/readme/images/submitstory.PNG" alt="Splash image">
+
+- Engage the users and make the community more alive by encouraging user submited content
+- Displayed front and center on the page the user is interested in
 ----
 
 # Technologies Used
