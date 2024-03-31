@@ -135,20 +135,32 @@ main {
 /* ========= Introduction Section ========= */
 #introduction {
     width: 90%;
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin: auto;
     text-align: center;
+    
 }
+
 #introduction h1{
+    font-size: 2rem;
     background-color: #333A73;
 }
-/* News article wrapper */
+
+#introduction h2{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+/* Introduction wrapper */
 #introductionwrapper {
-    margin-top: 25px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #041837;
+    border-radius: 5px;
+    text-align: center;
 }
 /* ========= News Section ========= */
 #news {
@@ -160,20 +172,23 @@ main {
 }
 
 #news h1{
+    font-size: 2rem;
     background-color: #333A73;
 }
 
 /* News article wrapper */
 #newswrapper {
-    margin-top: 25px;
+    padding-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url(../images/background-gradient.png);
+    background-size: 100%, 100%, 100%;
+    
 }
 
 /* News articles */
 .article {
-    max-width: 99%;
     background-color: #041837;
     border-radius: 5px;
     border: 5px solid #FBA834;
