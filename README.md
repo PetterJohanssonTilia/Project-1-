@@ -155,14 +155,14 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ### Fonts
 <div align="center">
-  <img src="./assets/readme/images/Fonts.JPG" alt="Fonts">
+  <img src="./assets/readme/images/fonts1.JPG" alt="Fonts">
 </div>
 - The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes
 - The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page
 
 ### Icons
 <div align="center">
-  <img src="./assets/readme/images/Icons.JPG" alt="Icons">
+  <img src="./assets/readme/images/icons1.JPG" alt="Icons">
 </div>
 
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
@@ -208,7 +208,7 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 #### Footer
 <div align="center">
-  <img src="./assets/readme/images/Icons.JPG" alt="Footer">
+  <img src="./assets/readme/images/icons1.JPG" alt="Footer">
 </div>
 
 - Located at the bottom of every page, only highlighting social sites.
@@ -216,8 +216,11 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 ### Index Page
 #### Jumbotron Image
-- Used as a splash image that highlights a cartoonish neighborhood at night
-- An image with a mountain in the middle that stays in the center of the screen on all devices
+<img src="assets/readme/images/splashimage.PNG">
+
+- Picture taken from pixabay <a href="https://pixabay.com/">Pixabay</a>.
+- Used as a splash image that highlights a cartoonish neighborhood at night.
+- An image with a mountain in the middle that stays in the center of the screen on all devices.
 ----
 
 # Technologies Used
@@ -283,17 +286,35 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
 
 The alerts are because you can click the link to get to the page that you're currently on<br>
 The form label not containing content is a known bug that you can find under <a href="#bugs">Bugs</a></br></br>
+
+ HTML has been validated with [PageSpeed Insights](https://pagespeed.web.dev/).
+
+<img src="assets/readme/validator/pagespeedinsights.PNG">
+
+
+| Problems     | Index       | Gallery  | Stories | Submit stories|
+| ------------- |:-------------:| -----------:| --------:| -------:|
+|      |<img src="assets/readme/validator/index.PNG" style=" height: 100px;">| <img src="assets/readme/validator/gallery.PNG" style=" height: 100px;">| <img src="assets/readme/validator/stories.PNG" style=" height: 100px;">|<img src="assets/readme/validator/submitstories.PNG" style=" height: 100px;">| pic|
+| Warnings      | None | None| Section lacks heading.| None|
+| Bugs | None| None| None| None|
+| Alerts | None| None| None| None|
+|Errors | None| None| None| None|
+
 CSS has been validated with [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
  <img src="assets/readme/validator/wc3cssvalidator.PNG">
 <img src="assets/readme/validator/wc3cssvalidation.PNG">
 Results are no errors found
 
   and auto-prefixed with [CSS Autoprefixer](https://autoprefixer.github.io/).
-
+<img src="assets/readme/validator/cssautoprefixer.PNG">
 
 
 
  Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
+ <img src="assets/readme/validator/wc3linkerchecker.PNG">
+ All links and anchors are working. The link checker couldn't check facebook and twitter due to robots exlusion rules and therefore had to be manually tested. 
+  <img src="assets/readme/validator/brokenlinks.PNG">
+
 
 ### General Testing
 - Each time a feature was added, all the functions were tested to see if there was an impact.
@@ -301,6 +322,9 @@ Results are no errors found
 - All forms have validation and will not submit without the proper information.
 - .gitignore file has been included to prevent system file commits.
 - External links open in a new tab.
+
+### Manual Testing
+- Checked the links to twitter and facebook in the footer
 
 ### Mobile Testing
 - I tested the site personally on my Android device, going through the entire process, checking buttons, functions, checking out, etc. I was personally unable to test on iOS.
