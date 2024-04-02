@@ -5,7 +5,7 @@
 
 <h1>Angry neighbors</h1>
 This is a HTML/CSS only portfolio-project. <br>
-The website is designed to be a hub for people that likes to complain about their neighbours. The website offers satirical articles. The website also allows for users to upload their own photos and share their real world neighbor stories. The goal is to make the website fun. You'll either laugh at the satire articles or laugh/symphatise with other people that don't have the best of neighbors.<br><br>
+The website is designed to be a hub for people that likes to complain about their neighbors. The website offers satirical articles and it also allows for users to upload their own photos and share their real world neighbor stories. The goal is to make the website fun. You'll either laugh at the satire articles or laugh/symphatise with other people that don't have the best of neighbors.<br><br>
 
 The design is stylized in a cartoonish way to emphasize the light-heartedness of the website and to prevent it from becoming a place meant to promote actual hate of your neighbors.
 
@@ -128,7 +128,7 @@ The design is stylized in a cartoonish way to emphasize the light-heartedness of
 The target audience for Angry Neighors are:
 - People who want read satire articles.
 - People who want to laugh at other peoples stories and photos
-- People that want to share their stories and  photos.
+- People that want to share their own stories and  photos.
 
 User goals are:
 - View and submit photos.
@@ -136,8 +136,8 @@ User goals are:
 - Read the articles.
 
 Angry Neighbors fills these needs by:
-- Putting the articles and a big colorful heropicture on the front page, capturing the users interest
-- letting the users navigate easily through the site.
+- Putting the articles and a big colorful hero-picture on the front page, capturing the users interest
+- Letting the users navigate easily through the site.
 - making the site very simple with little distractions.
 - Putting all the gallary images in a collage letting the user feel like they're the ones finding the new fun photos
 - Putting a big "submit your own story" button on the story page, encouraging members to contribute with even more content
@@ -160,7 +160,7 @@ Wireframes: <a href="./assets/readme/wireframes/Wireframes.pdf">Wireframes</a>
   <img src="./assets/readme/images/fonts1.JPG" alt="Fonts">
 </div>
 - The primary font, [Pridi](https://fonts.google.com/specimen/Pridi?query=pridi) was chosen because it is big, bold and a bit cartoonish. It looks friendly and playful. It is also sans-serif, making it very easily readable throughout different color schemes.
-- The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories, making them look more serious and real compared to the satire on the front page.
+- The secondary font, [Pontano](https://fonts.google.com/specimen/Pontano+Sans?query=pontano) was chosen because it is thin, and plain. As a font, it gave me the impression of writing in word or a type writer. That is why it was chosen as the font for the user stories. Creating a stark contrast from what is satire and what is real user stories.
 
 ### Icons
 <div align="center">
@@ -244,12 +244,7 @@ The cartoonish style helps convey that this sites articles are satirical
 - [CSS](w3.org/standards/webdesign/htmlcss)
     * Styling.
 
-## Frameworks
-- [Bootstrap4](https://getbootstrap.com/)
-    * Used for basic styles and outline.
-
 ## Libraries
-
 - [Google Fonts](https://fonts.google.com)
     * Font Styles.
 - [Fontawesome](https://fontawesome.com/)
@@ -326,7 +321,7 @@ Results are no errors found
 
  Links checked with [W3C Link Checker](https://validator.w3.org/checklink).
  <img src="assets/readme/validator/wc3linkerchecker.PNG" alt="wc3 link checker">
- All links and anchors are working. The link checker couldn't check facebook and twitter due to robots exlusion rules and therefore had to be manually tested. 
+ All links and anchors are working. The link checker couldn't check Facebook and Twitter/X due to robots exlusion rules and therefore had to be manually tested. 
   <img src="assets/readme/validator/brokenlinks.PNG" alt="wc3 link checker result">
 
 
@@ -338,7 +333,7 @@ Results are no errors found
 - External links open in a new tab.
 
 ### Manual Testing
-- Checked the links to twitter and facebook in the footer.
+- Checked the links to Twitter and Facebook in the footer.
 
 ### Mobile Testing
 - I tested the site personally on my Android device, going through the entire process, checking buttons, functions, checking out, etc. I was personally unable to test on iOS.
